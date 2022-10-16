@@ -61,7 +61,7 @@ class custom_pow
             }
         prev_value=output;
         }
-        output=Math.Round(output,4);
+        output=Math.Round(output,6);
         return output;
     }
     public dynamic represent()

@@ -15,7 +15,16 @@ custom_pow task1_double= new custom_pow(base_num:9.99,multiply_num:10);//9900448
 output=task1_double.main();
 WriteLine(output);
 
-
 // bool q;
-// // q=(Decimal.MaxValue>long.MaxValue);
+// q=(Decimal.MaxValue>long.MaxValue);
 // WriteLine(q);
+WriteLine("2#");
+number_poking obj;
+string[] exa = new string[]{"123",@"._. человек даже с атрофированной эмпатией остаётся человеком.
+Это нужно помнить всегда просто чтобы сопротивляться телевизору, сохранить собственную гуманность."};
+foreach (string iter in exa)
+{
+    obj=new number_poking(iter);
+    obj.show_sum_of_digits();
+
+}
