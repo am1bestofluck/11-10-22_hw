@@ -28,3 +28,11 @@ foreach (string iter in exa)
     obj.show_sum_of_digits();
 
 }
+WriteLine("3#");
+array_randomized task3= new array_randomized(20,-10,10);
+WriteLine("Печатаем в пустоту");
+task3.print_result();
+string imported= task3.return_string();
+WriteLine(@$"
+Возвращаем строку:
+{imported}");
